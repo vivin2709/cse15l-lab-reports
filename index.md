@@ -5,6 +5,6 @@
 # Lab Reports:
 Horizontal rule:
 **Bold**	
-![Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FInternet_meme&psig=AOvVaw0u5q1mHutxEDA9DKoRuMCi&ust=1642133237365000&source=images&cd=vfe&ved=2ahUKEwifsciT7a31AhXhGDQIHe22BvwQr4kDegUIARCXAQ.png)
+![fav image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FInternet_meme&psig=AOvVaw0u5q1mHutxEDA9DKoRuMCi&ust=1642133237365000&source=images&cd=vfe&ved=2ahUKEwifsciT7a31AhXhGDQIHe22BvwQr4kDegUIARCXAQ.jpg)
 
 111111
