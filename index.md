@@ -3,8 +3,6 @@
 [CSE 15L Gradescope link](https://www.gradescope.com/courses/346317)
 
 # Lab Reports:
-Horizontal rule:
-**Bold**	
-![fav image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FInternet_meme&psig=AOvVaw0u5q1mHutxEDA9DKoRuMCi&ust=1642133237365000&source=images&cd=vfe&ved=2ahUKEwifsciT7a31AhXhGDQIHe22BvwQr4kDegUIARCXAQ.jpg)
+[Lab Report 1](https://vivin2709.github.io/cse15l-lab-reports/labreport1week2.html)
 
 111111
