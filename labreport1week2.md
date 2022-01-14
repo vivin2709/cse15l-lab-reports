@@ -9,9 +9,9 @@ The first step is to download the VS code for your respective system. I like man
 
 ![ssh 2](ssh2.png)
 
-The next step was to connect remotely. First we went to the following link and found our course specific accounts. 
+The next step was to connect remotely. First we went to the following link and found our course specific accounts. -
 
->https://sdacs.ucsd.edu/~icc/index.php
+|> https://sdacs.ucsd.edu/~icc/index.php
 
 Then used the following command to connect to the server: where aow is my specific account for other students it will be different.
 ssh cs15lwi22aow@ieng6.ucsd.edu. It then asked for a password on entering it I was logged in. 
@@ -34,7 +34,9 @@ In order to easily log into our CSE 15L accoount in the future without using a p
 ![1](opt.png)
 
 To further optimize running remotely we ca  use some moer commands. For example the statement above allows us to log into the servers carry out the command 'ls' and then logs out again. This is done in one line by putting the ls command in quotes after the ssh command. The entire command is written below: 
->ssh cs15lwi22@ieng6.ucsd.edu "ls"
+
+|>ssh cs15lwi22@ieng6.ucsd.edu "ls" 
+
 Another easy tirck is to use the up-arrow on your keyboard to recall the last command that was run. 
 
 
