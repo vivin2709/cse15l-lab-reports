@@ -23,6 +23,7 @@ It then asked for a password on entering it I was logged in. That means succesfu
 # STEP 3: Trying Some Commands 
 
 ![somecommands1](somecommands1.png)
+
 We tried some different commands, one was cd which essentially changed directory to a file deeper within the file System. Essentially
 cd file name. We also had ls which listed the files in a certain directory. cd.. Helped in going back to the upper directory, almost like a reverse cd.  pwd was another interesting command that we used which gives the filepath to the file you're currently in. 
 
