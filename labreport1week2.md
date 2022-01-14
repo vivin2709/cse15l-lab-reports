@@ -21,6 +21,7 @@ ssh cs15lwi22aow@ieng6.ucsd.edu.
 It then asked for a password on entering it I was logged in. That means succesfully connected to the ieng6 server. 
 
 # STEP 3: Trying Some Commands 
+![somecommands1](somecommands1.png)
 
 
 We tried some different commands, one was cd which essentially changed directory to a file deeper within the file System. Essentially
