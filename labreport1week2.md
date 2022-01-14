@@ -1,4 +1,4 @@
-                                             # **Vivin's Lab Report 1:**
+# _**VIVIN'S LAB REPORT 1:**_
 
 # STEP 1: Installing VS Code 
 
