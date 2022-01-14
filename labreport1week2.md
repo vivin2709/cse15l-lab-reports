@@ -14,7 +14,8 @@ The next step was to connect remotely. First we went to the following link and f
 |> https://sdacs.ucsd.edu/~icc/index.php
 
 Then used the following command to connect to the server: where aow is my specific account for other students it will be different.
-ssh cs15lwi22aow@ieng6.ucsd.edu. It then asked for a password on entering it I was logged in. 
+ssh cs15lwi22aow@ieng6.ucsd.edu. 
+It then asked for a password on entering it I was logged in. That means succesfully connected to the ieng6 server. 
 
 # STEP 3: Trying Some Commands 
 ![somecommands1](somecommands1.png)
@@ -38,5 +39,9 @@ To further optimize running remotely we ca  use some moer commands. For example 
 |>ssh cs15lwi22@ieng6.ucsd.edu "ls" 
 
 Another easy trick is to use the up-arrow on your keyboard to recall the last command that was run. This optimizes the command process and saves time by not having to repeatedly type out commands. 
+
+![2](optimize2.png)
+
+We can also use multiple commands in a single line by using semi colons to seperate them as shown above. 
 
 
