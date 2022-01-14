@@ -26,17 +26,17 @@ cd file name. We also had ls which listed the files in a certain directory. cd..
 ![scp2](scp2.png)
 In this step we use the scp command to move files from our local computer to the ieng6 server. We use the command as shown above. Another intereting thing to note is the difference in the output when we run the whereAmI. java file on the local computer and on the server. THe local computer shows macOS, since I use a mac, while the client uses Linux and thats what is outputted on running the file after moving it to the server.       
 
-# STEP 5: 
+# STEP 5: Setting an SSH Key  
 ![Generation of public/private key to help with logging in](publickey.png)
 In order to easily log into our CSE 15L accoount in the future without using a password we must set up a ssh key. Basically a pair of files is created with ssh-keygen, a private key and public key. The piblic key is copied to the ieng server and the private key remains on our local computer. 
 
-# STEP 6:
+# STEP 6: Optimizing remote running
 ![1](opt.png)
 
-To further optimize running remotely we ca  use some moer commands. For example the statement above allows us to log into the servers carry out the command 'ls' and then logs out again. This is done in one line by putting the ls command in quotes after the ssh command. The entire command is written below: 
+To further optimize running remotely we ca  use some moer commands. For example the statement above allows us to log into the servers carry out the command 'ls' and then logs out again. This is done in one line by putting the  command in quotes after the ssh command. The entire command is written below: We can use any command in quotes, for this example we have used ls. 
 
 |>ssh cs15lwi22@ieng6.ucsd.edu "ls" 
 
-Another easy tirck is to use the up-arrow on your keyboard to recall the last command that was run. 
+Another easy trick is to use the up-arrow on your keyboard to recall the last command that was run. This optimizes the command process and saves time by not having to repeatedly type out commands. 
 
 
