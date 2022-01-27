@@ -4,7 +4,7 @@
 
 ![vscode installed](installedvscode.png)
 
-The first step is to download the VS code for your respective system. I like many students had [VS Code](https://code.visualstudio.com/download) and Java downloaded already since I did CSE 11. However, its important to make sure the Version is the latest version and that you download VScode only from the official source. 
+The first step is to download the VS code for your respective system. I like many students had [VS Code](https://code.visualstudio.com/download) and Java downloaded already since I did CSE 11. However, its important to make sure the Version is the latest version and that you download VScode only from the [official download link](https://code.visualstudio.com/download). 
 
 # STEP 2: Remotely Connecting 
 
