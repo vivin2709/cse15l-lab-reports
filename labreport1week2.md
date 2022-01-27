@@ -4,7 +4,7 @@
 
 ![vscode installed](installedvscode.png)
 
-The first step is to download the VS code for your respective system. I like many students had VS Code and Java downloaded already since I did CSE 11. However, its important to make sure the Version is the latest version and that you download VScode only from the official source. 
+The first step is to download the VS code for your respective system. I like many students had [VS Code](https://code.visualstudio.com/download) and Java downloaded already since I did CSE 11. However, its important to make sure the Version is the latest version and that you download VScode only from the official source. 
 
 # STEP 2: Remotely Connecting 
 
@@ -12,9 +12,7 @@ The first step is to download the VS code for your respective system. I like man
 
 ![ssh 2](ssh2.png)
 
-The next step was to connect remotely. First we went to the following link and found our course specific accounts. -
-
-|> https://sdacs.ucsd.edu/~icc/index.php
+The next step was to connect remotely. First we went to the following link and found our [Course Specific Accounts](https://sdacs.ucsd.edu/~icc/index.php)
 
 Then used the following command to connect to the server: where aow is my specific account for other students it will be different.
 ssh cs15lwi22aow@ieng6.ucsd.edu. 
