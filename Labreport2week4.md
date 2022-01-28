@@ -4,7 +4,7 @@
 This change will aim to fix the error of having an image in the frist line after the title of the [test file](Test-file2.md). Essentially allowing the code to work on files with both links and images.
 The symptom is shown below:
 ![Symptom1](imageerrorsymptom.png)
-As seen the image name is also printing which shouldn't happen as this is only to print actual links and not image names.
+As seen the image name is also printing which shouldn't happen as this program should only print actual links and not image names.
 
 The following code change was made: 
 ![Change 1](imagefix.png)
@@ -17,7 +17,9 @@ Finally as seen above we added an if statement to ensure
 By doing so we check if the ! mark exists after the first '(' we know its an image and hence dont need this data and we use 'continue' to skip this line and go to the next. By doing so everytime we hit a '!' we dont record the image name and instead go to the next line to check for a link. Hence the bug is resolved. 
 
 # Code Change 2:
-This change will aim to fix the error where we have a link that is incorrectly formatted which means the link in the [test file](Test-file4.md) only has a [] brackets and no parenthesis. Which was leading to an index out of bounds exception.As shown below. THe symptom was the exception we saw being thrown in the terminal.
+This change will aim to fix the error where we have a link that is incorrectly formatted which means the link in the [test file](Test-file4.md) only has a [] brackets and no parenthesis. Which was leading to an index out of bounds exception.
+
+As shown below,the symptom was the exception we saw being thrown in the terminal.
 
 ![improperlinkerror](improperlinkerror.png)
 
