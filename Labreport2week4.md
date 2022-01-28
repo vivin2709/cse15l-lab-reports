@@ -34,7 +34,7 @@ I noticed that the code was throwing an IndexOutOfBounds Excpetion as there were
     break;
             } 
 ```
-By doing so we ensure that in the first line if there is no parenthesis and closeParen and openParen are -1, the code doesnt throw an exception, since we added this if statement before substring is called, it simply breaks out of the loop, when there are no parenthesis.
+By doing so we ensure that in the first line if there is no parenthesis and closeParen and openParen are -1, the code doesnt throw an exception. By adding this if statement before substring is called, the code simply breaks out of the loop, when there are no parenthesis.
 
 # Code Change 3:
 
