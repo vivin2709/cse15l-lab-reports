@@ -15,14 +15,18 @@ The first step is to download the VS code for your respective system. I like man
 The next step was to connect remotely. First we went to the following link and found our [Course Specific Accounts](https://sdacs.ucsd.edu/~icc/index.php)
 
 Then used the following command to connect to the server: where aow is my specific account for other students it will be different.
+
+```
 ssh cs15lwi22aow@ieng6.ucsd.edu. 
+```
+
 It then asked for a password on entering it I was logged in. That means succesfully connected to the ieng6 server. 
 
 # STEP 3: Trying Some Commands 
 ![somecommands1](somecommands1.png)
 
 We tried some different commands, one was cd which essentially changed directory to a file deeper within the file System. Essentially
-cd file name. We also had ls which listed the files in a certain directory. cd.. Helped in going back to the upper directory, almost like a reverse cd.  pwd was another interesting command that we used which gives the filepath to the file you're currently in. 
+cd file name. We also had ls which listed the files in a certain directory. cd.. Helped in going back to the upper directory, almost like a reverse cd. pwd was another interesting command that we used which gives the filepath to the file you're currently in. 
 
 # STEP 4: Moving files with scp 
 
@@ -43,7 +47,7 @@ In order to easily log into our CSE 15L accoount in the future without using a p
 
 To further optimize running remotely we ca  use some moer commands. For example the statement above allows us to log into the servers carry out the command 'ls' and then logs out again. This is done in one line by putting the  command in quotes after the ssh command. The entire command is written below: We can use any command in quotes, for this example we have used ls. 
 
-|>ssh cs15lwi22@ieng6.ucsd.edu "ls" 
+``` ssh cs15lwi22@ieng6.ucsd.edu "ls" ```
 
 Another easy trick is to use the up-arrow on your keyboard to recall the last command that was run. This optimizes the command process and saves time by not having to repeatedly type out commands. 
 
