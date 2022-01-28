@@ -23,7 +23,7 @@ This change will aim to fix the error where we have a link that is incorrectly f
 
 On seeing this error, I decided to make some code changes as shown below. 
 
-[fix](improperlinkfix.png)
+![fix](improperlinkfix.png)
 
 I noticed that the code was throwing an IndexOutOfBounds Excpetion as there were no parenthesis in the code therefore openParen<0 and closeParen were both -1. And when we called the substring function it was throwing an error since -1 is out of bonds. We fixed this bug by adddding the following statement:
 
