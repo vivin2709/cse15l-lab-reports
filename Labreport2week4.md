@@ -19,7 +19,7 @@ By doing so we check if the ! mark exists after the first '(' we know its an ima
 # Code Change 2:
 This change will aim to fix the error where we have a link that is incorrectly formatted which means the link in the [test file](Test-file4.md) only has a [] brackets and no parenthesis. Which was leading to an index out of bounds exception.As shown below. THe symptom was the exception we saw being thrown in the terminal.
 
-![improperlinkerror](improperlinkfix.png)
+![improperlinkerror](improperlinkerror.png)
 
 On seeing this error, I decided to make some code changes as shown below. 
 
