@@ -47,12 +47,13 @@ In order to easily log into our CSE 15L accoount in the future without using a p
 
 To further optimize running remotely we ca  use some moer commands. For example the statement above allows us to log into the servers carry out the command 'ls' and then logs out again. This is done in one line by putting the  command in quotes after the ssh command. The entire command is written below: We can use any command in quotes, for this example we have used ls. 
 
-``` ssh cs15lwi22@ieng6.ucsd.edu "ls" ```
+``` ssh cs15lwi22@ieng6.ucsd.edu "ls" ``` 
+Moreover by not having to enter the password i saved over 8-10 seconds per run as I also got the password wrong at times when I had to type it out. 
 
 Another easy trick is to use the up-arrow on your keyboard to recall the last command that was run. This optimizes the command process and saves time by not having to repeatedly type out commands. 
 
-![2](optimize2.png)
-
-We can also use multiple commands in a single line by using semi colons to seperate them as shown above. 
+In the above image I used 9 key strokes as I already had the commands ready and wrote it all out in 1 line. So the copy pasting of the 2 commands was 2 keystrokes each then adding the semi colons and hitting enter. 
+The first time I had to use the non optimized solution which required running seperate commands and entering the password. Thistook me approximately 34 keystrokes(again I was copy pasting commands, except the copile statement for WhereAmI). I also saved many key strokes as I didnt need to enter a password anymore. 
+So at the minimum I saved 34 - 9 = 25 keystrokes my optimizing my running. 
 
 
