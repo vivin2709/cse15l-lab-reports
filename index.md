@@ -5,4 +5,6 @@
 # Lab Reports:
 [Lab Report 1](https://vivin2709.github.io/cse15l-lab-reports/labreport1week2.html)
 
+[Lab Report 2](https://vivin2709.github.io/cse15l-lab-reports/Labreport2week4.html)
+
 
