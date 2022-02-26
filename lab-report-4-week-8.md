@@ -36,7 +36,7 @@ There is no small code change that can fix this error. Since by simply adding an
 
 ``` if(markdown.charAt(openParen-1)==']'||if(markdown.charAt(openParen-1)==']')) ```
 
-However this causes a variety of tests to fail therefore we would need specific if statements to ensure that even within the () where we have the link if we have a ` it should be included in the outputted link. Moreover, the statement whioch defines the value would also have to be changed since we would have to change the value from where wee begin picking up the link. It won't simply be first instance of backtick+1 since that won't work for the other test cases. It would have to be a very involved change since we would also have to ensure that other test cases have their own special if cases.
+However this causes a variety of tests to fail therefore we would need specific if statements to ensure that even within the parenthesis where we have the link if we have a backtick it should be included in the outputted link. Moreover, the statement whioch defines the value would also have to be changed since we would have to change the value from where wee begin picking up the link. It won't simply be first instance of backtick+1 since that won't work for the other test cases. It would have to be a very involved change since we would also have to ensure that other test cases have their own special if cases.
 
  # _**Snippet 2 output: Failed:**_
 
@@ -55,7 +55,7 @@ Similarly here there is no less than 10 line code change that could fix the erro
  # _**Snippet 3 output: Failed:**_
 
 ![image](ssm3.png)
-There is no less than 10 line change that would fix the error we are facing and fix the  implemetation wihtout a more involved change. This is primarily becuase we already have a case to continue in case the link is incorrectly formatted in the following code snippet:
+There is no less than 10 line change that would fix the error we are facing and fix the  implementation wihtout a more involved change. This is primarily becuase we already have a case to continue in case the link is incorrectly formatted in the following code snippet:
 ``` 
 if(nextOpenBracket!=0 && markdown.charAt(nextOpenBracket-1)=='!')
             {
