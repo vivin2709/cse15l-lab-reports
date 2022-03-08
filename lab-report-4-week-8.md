@@ -30,7 +30,7 @@ JUNIT TESTS CREATED FOR SNIPETTS 1,2 AND 3 ON MY IMPLEMENTATION:
 
  # _**Snippet 1 output: Failed:**_
 
-![s1](ssm1.png)
+![s1](myitest1.png)
 
 There is no small code change that can fix this error. Since by simply adding an if statement that accounts for the backticlks, will lead to many other test cases failing as in line 28 by addding an or to the statement, it changes the value to be returned. A potential fix could have been:
 
@@ -40,7 +40,7 @@ However this causes a variety of tests to fail therefore we would need specific 
 
  # _**Snippet 2 output: Failed:**_
 
-![s2](ssm2.png)
+![s2](myitest2.png)
 
 Similarly here there is no less than 10 line code change that could fix the error. Since we have to rest our entire code to work with the last index of ')' rather than just indexOf ')'. This is hard to do since it would first cause all the original variables to change which include 
 ```
