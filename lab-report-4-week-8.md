@@ -10,7 +10,7 @@ For all the tests created I used the preview on VS CODE to see which links actua
 
 JUNIT TESTS CREATED FOR SNIPETTS 1,2 AND 3 ON THEIR IMPLEMENTATION:
 
-![THEIR IMPLEMETATION](testthem.png)
+![THEIR IMPLEMETATION](theirinew.png)
 
  # _**Snippet 1 output: Failed: their implementation**_
 
