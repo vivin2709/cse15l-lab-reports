@@ -14,11 +14,11 @@ JUNIT TESTS CREATED FOR SNIPETTS 1,2 AND 3 ON THEIR IMPLEMENTATION:
 
  # _**Snippet 1 output: Failed: their implementation**_
 
-![snippet 1 test](S3(1)FAILREVIEW.png)
+![snippet 1 test](theiritest1.png)
 
  # _**Snippet 2 output: Failed: their implementation**_
 
-![snippet 2 test](s2failrevieww.png)
+![snippet 2 test](theiritest2.png)
 
  # _**Snippet 3 output: Failed: their implementation**_
 
