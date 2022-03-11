@@ -1,6 +1,5 @@
 # _**VIVIN'S LAB REPORT 5:**_
 
-# _**LINKS NEEDEDED FOR THIS LAB REPORT:**_
 
 [My Implementation](https://github.com/vivin2709/markdown-parse)
 
@@ -21,6 +20,9 @@ In the following screeshots, their (given by the prof) implementation is the one
 ![test](test1imp.jpeg)
 
 The expected output from the given output files in test is:
+
+
+
 ![434](expect1.png)
 
 However, it interesting to see that my implemetation returns an empty list as that is the correct output. Since there is no valid link showing in the VS Code preview. 
@@ -32,10 +34,13 @@ Bug in their implementation:
 
 ![test](test2imp.jpeg)
 
+
 The expected output from the given output files in test is:
+
+
 ![434](expect2.png) 
 
-so clearly the expected output is [foo], since it works as a valid link.
+So clearly the expected output is [foo], since it works as a valid link.
 
 Both implementations give the wrong output in this case.
 
