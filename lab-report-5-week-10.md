@@ -40,4 +40,4 @@ so clearly the expected output is [foo], since it works as a valid link.
 Both implementations give the wrong output in this case.
 
 Bug in my implementation: 
-Essentially our code does not check for ```\``` and ```*``` adding an if statement to include these within the string markdown, will allow these to be addded to our output. The string we are returning is based only on the value of open and close paren it does not account for quotes within the brackets of the link either. If cases to include these special characters and still count the link as valid is required. 
+Essentially our code does not check for ```\``` and ```*``` adding an if statement to include these within the string markdown, will allow these to be addded to our output. The string we are returning for each link is based only on the value of open and close paren it does not account for quotes within the brackets of the link either. If cases to include these special characters and still count the link as valid is required. 
